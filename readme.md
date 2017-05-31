@@ -113,7 +113,7 @@ render() {
         </p>
         <input type="submit" />
       </form>
-      /* code remove here */
+      /* code removed here */
     </div>
   );
 }
