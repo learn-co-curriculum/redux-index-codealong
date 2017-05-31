@@ -94,7 +94,7 @@ Alright, we just gave each list element its own component, and got our code back
 
 ## Cleanup
 
-There's just a couple small items to clean up.
+There are just a couple of small items to clean up.
 
 The first is that our CreateTodo Component's form is still live updating `{this.state.text}` below the input each time the user types something. Let's fix that by going to the `./src/components/todos/CreateTodo.js` file and removing the line `{this.state.text}`, towards the bottom of our render() function.
 
