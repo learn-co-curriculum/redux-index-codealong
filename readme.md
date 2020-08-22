@@ -2,14 +2,14 @@
 
 ## Objectives
 
-With this lesson we'll finish up what we worked on the in the forms code along
+With this lesson we'll finish up what we worked on in the forms code along
 by displaying our list of todos. By the end of this lesson, you will be able to:
 
 * Display a list of elements from our __Redux__ store
 
 ## Goal
 
-Our state is properly updating but we are not displaying these updates to the
+Our state is properly updating, but we are not displaying these updates to the
 user. We need a component that references the store and then uses the data from
 the store to reference the list of Todos.
 
@@ -62,7 +62,7 @@ component to handle displaying our todos.
 ## Creating a Presentational Todo Component
 
 To start, we'll have each todo rendered as a list item. Inside the
-`./src/components/` folder, create a file `Todo.js`. Inside it, write a
+`./src/components/todos/` folder, create a file `Todo.js`. Inside it, write a
 functional component that returns an `li` displaying props:
 
 ```js
@@ -146,8 +146,8 @@ list.
 
 ## Summary
 
-Ok, so we got our __Todos__ component working simply by accessing the state from
-the store, and then iterating through the list in the __Todos__ component.
+Ok, so we got our __TodosContainer__ component working simply by accessing the state from
+the store, and then iterating through the list in the __TodosContainer__ component.
 
 
 ## References
